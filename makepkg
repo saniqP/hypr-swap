@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo "[*] making folder"
+mkdir ~/.config/hypr-swap
+
+echo "[*] copieng files"
+cp -r * ~/.config/hypr-swap
+
+echo "[*] adding aliases"
+echo "alias hypr-swap='python3 ~/.config/hypr-swap/Main.py'" >> ~/.bashrc
+echo "alias hypr-swap='python3 ~/.config/hypr-swap/Main.py'" >> ~/.zshrc
+
+
+
+
